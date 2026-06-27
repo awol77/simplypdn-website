@@ -89,3 +89,10 @@ text-decoration: none;
 .contacts a:hover {
 text-decoration: underline;
 }
+
+.channel {
+    width: 320px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background: #faf8f3;
+}
