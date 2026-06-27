@@ -38,10 +38,11 @@ margin: 50px auto;
 }
 
 .channels {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 40px;
-margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 50px 0;
 }
 
 .channel {
